@@ -2,7 +2,7 @@
 import {Plus,Edit,Trash2} from "lucide-react"
 import {Button, DatePicker, InputNumber, Modal} from "antd"
 import Input from "antd/es/input/Input";
-import Form from "antd/es/form/Form";
+import { Form } from "antd"; 
 import moment from "moment"
 import { useState } from "react";
 import  {useExpense}  from "./zustand/useExpense";
