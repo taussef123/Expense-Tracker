@@ -62,6 +62,7 @@ function App(){
             className="p-3 rounded border-gray-300  "
           />
           <table className="w-full">
+            <tbody>
             <tr className="bg-indigo-600 text-white text-left">
               <th className="py-2.5 pl-4">Title</th>
               <th>Description</th>
@@ -100,7 +101,7 @@ function App(){
             }
            
          
-          
+          </tbody>
           </table>
           <div className=" flex items-center justify-end">
             <h1 className="text-3xl font-bold">Total Expense - ₹{(expenses
